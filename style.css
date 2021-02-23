@@ -17,7 +17,7 @@ html {
   }
   
   ::-webkit-scrollbar-track {
-    background: rgba(0, 0, 0, 0.775);
+    background: rgba(0, 0, 0, 0.994);
   }
    
   ::-webkit-scrollbar-thumb {
@@ -38,7 +38,8 @@ html {
 .topnav{
     margin: 0;
     padding: 0;
-    background-color: rgba(14, 13, 13, 0.967);
+    background-color: rgba(14, 13, 13, 0.816);
+    box-shadow: 0 12px 16px 10px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     color: white;
     position: fixed;
     top: 0;
@@ -46,6 +47,7 @@ html {
     width: 150px;
     display: inline-block;
     white-space: nowrap;
+    transition: 0.4s;
 }
 
 .topnav a{
@@ -58,6 +60,7 @@ html {
     float: left;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .topnav a:hover{
@@ -69,7 +72,7 @@ html {
     
 }
 
-.topnav.active{
+.topnav a:active{
     background-color: rgba(45, 191, 50, 0.8);
     color: white;
     box-shadow: 0 12px 16px 10px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -430,6 +433,7 @@ header.is-visible{
     margin-left: 40px;
     margin-top: 10%;
     color: rgba(10, 135, 24, 0.8);
+    opacity: 1;
 }
 
 .container {
@@ -444,7 +448,17 @@ header.is-visible{
     font-size: 10px;
     margin-bottom: 5px;
     box-shadow: none;
+    cursor: pointer;
+    transition: .5s ease;
+    opacity: .7;
 }
+
+.container:hover {
+    opacity: 1;
+    width: 150%;
+    margin-left: 0px;
+}
+
 
 .progress-label{
     position: relative;
@@ -454,13 +468,11 @@ header.is-visible{
 }
 
 .skills{
-    
-    text-align: right;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
-    
 }
+
 
 .html{
     height: 15px;
