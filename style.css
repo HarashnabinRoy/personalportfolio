@@ -605,7 +605,7 @@ header.is-visible{
   }
 
   .flip-card-front p{
-      margin-top: 9%;
+      margin-top: 6.5%;
   }
 
 
@@ -642,7 +642,11 @@ header.is-visible{
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.528);
 }
 
-
+.myworksp{
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
 
 .middle{
     transition: .5s ease;
