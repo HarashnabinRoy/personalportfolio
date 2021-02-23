@@ -57,6 +57,7 @@ html {
     display: block;
     float: left;
     width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .topnav a:hover{
