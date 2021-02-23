@@ -38,7 +38,7 @@ html {
 .topnav{
     margin: 0;
     padding: 0;
-    background-color: rgba(14, 13, 13, 0.816);
+    background-color: rgba(14, 13, 13, 0.953);
     box-shadow: 0 12px 16px 10px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     color: white;
     position: fixed;
