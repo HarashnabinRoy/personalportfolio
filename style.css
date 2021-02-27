@@ -1,4 +1,6 @@
 /* ========= GLOBAL =========*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 *
 {
     margin:0;
@@ -173,16 +175,17 @@ html {
     
     height: 100vh;
     color: white;
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     padding: 20px;
 }
 
 .header h1{
-    margin-left: 25px;
+    margin-left: 40px;
     margin-top: 13%;
     text-transform: uppercase;
     padding: 10px;
+    font-family: 'montserrat', sans-serif;
 }
 
 .header img{
