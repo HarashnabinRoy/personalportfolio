@@ -5,6 +5,7 @@
             Personal Portfolio
         </title>
         <link rel = "stylesheet" href = "./style.css">
+        <link rel = "stylesheet" href = "./loader.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      
     </head>
@@ -13,13 +14,19 @@
         
 
         <!--Preloader-->
-        <div class="loader">
-            <div class="loader-inner">
-                
+        <div class="preload">
+        <div class="wrap">
+            <div class="loading">
+                <div class="bounceball"></div>
+                <div class="text">NOW LOADING</div>
             </div>
         </div>
+        </div>
+
+
+
         <!--TOP NAVIGATION BAR-->
-        
+        <section>
         <div class="topnav">
             <div class="logo">
                 <span style="color: rgba(45, 191, 50, 0.8);">Portfolio</span>
@@ -418,10 +425,11 @@
             <a href="https://www.linkedin.com/in/harashnabin-roy-8893731b9/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
             <a href="https://www.reddit.com/user/DoubtDifferent5508" class="reddit" target="_blank"><i class="fa fa-reddit"></i></a> 
           </div>
-
+          </section>
          
 
         <script src="./scroll.js"></script>
         <script src="./app.js"></script>
+        <script src="./loader.js"></script>
     </body>
 </html>
