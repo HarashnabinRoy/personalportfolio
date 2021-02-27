@@ -1,9 +1,10 @@
-So we're making a Personal Portfolio
+index.html is the Main File to be compiled
 
-We'll add the Library Management C++ if Kaushik still has it, else I'll have not many things to add
+style.css and app.js are attached to the main index.html to give nice special designs
+scroll.js enables scroll effects in the website
 
-I can add skills
-Like in Cognitive skills in "https://wondertree.co/"
+loader.css and loader.js are attached to the preload class in the main index.html file. It has been used to add the preloading screen.
 
 
-line 91 <-- show on scroll 
+MADE BY: HARASHNABIN ROY
+PROJECT STARTED ON 25/02/2021
