@@ -1,5 +1,7 @@
 # Personal Portfolio
 
+**Version 1.0.0**
+
 index.html is the Main File to be compiled <br>
 
 style.css and app.js are attached to the main index.html to give nice special designs <br>
