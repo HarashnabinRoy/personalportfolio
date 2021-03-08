@@ -724,6 +724,7 @@ header.is-visible{
 
 
 .container-contact h1, .container-contact p{
+    padding-left: 30px;
     color: #4ca540;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
