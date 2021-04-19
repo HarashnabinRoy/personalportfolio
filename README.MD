@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-**Version 1.0.0**
+**Version 1.0.3**
 
 **Website Link:** https://harashnabinroy.github.io/harashnabinRoy/
 
