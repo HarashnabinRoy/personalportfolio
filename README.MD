@@ -2,7 +2,7 @@
 
 **Version 1.0.3**
 
-**Website Link:** https://harashnabinroy.github.io/harashnabinRoy/
+**Website Link:** https://harashnabinroy.github.io/personalportfolio/
 
 index.html is the Main File to be compiled <br>
 
